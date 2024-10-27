@@ -1,0 +1,16 @@
+-- CREATE TABLE users (
+--     id BIGINT PRIMARY KEY AUTO_INCREMENT,
+--     email VARCHAR(255) NOT NULL UNIQUE,
+--     password_hash VARCHAR(255) NOT NULL,
+--     name VARCHAR(255) NOT NULL,
+    
+--     -- Indexes for faster queries
+--     INDEX idx_email (email)
+-- );
+-- CREATE TABLE todos (
+--     id BIGINT PRIMARY KEY AUTO_INCREMENT,
+--     todo TEXT,
+--     status ENUM('done', 'pending') DEFAULT 'pending',
+--     user_id BIGINT,  -- Foreign key column
+--     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+-- );
